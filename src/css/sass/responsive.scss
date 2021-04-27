@@ -1,0 +1,42 @@
+@media screen and (max-width: 880px) {
+  .stays-page {
+    .all-stays {
+      .single-stay {
+        flex-direction: column;
+
+        .img-container {
+          margin-bottom: 1rem;
+          height: 500px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 672px) {
+  .navbar {
+    .center {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .banner {
+    height: 80vh;
+    padding: 0 0 9rem 1.5rem;
+
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .pagination {
+    ul {
+      li {
+        margin-right: 0.6rem;
+      }
+    }
+  }
+}
